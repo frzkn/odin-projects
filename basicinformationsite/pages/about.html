@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+  <style>
+    :root {
+      font-size: 30px;
+    }
+
+    html,
+    body,
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans;
+      display: flex;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .left,
+    .right {
+      flex: 1;
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      background: #fff;
+    }
+
+    .left * {
+      padding: 1rem;
+    }
+
+    .right {
+      background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    code {
+      background:#66a6ff;
+      color: white;
+    }
+
+    @media (max-width: 800px) {
+      :root {
+        font-size: 20px;
+      }
+      body {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="left">
+    <h1>Faraz Khan</h1>
+    <code>@frzkn</code>
+    <p>Faraz is a Computer Science Student at Ramrao Adik, India. Passionate about building sweet looking UI and robust backends.</p>
+  </div>
+  <div class="right">
+    <img src="https://avatars2.githubusercontent.com/u/14858039?s=460&v=4"/>
+
+  </div>
+</body>
+
+</html>

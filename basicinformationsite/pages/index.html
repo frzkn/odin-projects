@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Odin Project</title>
+  <style>
+    :root {
+      font-size: 30px;
+    }
+
+    html,
+    body,
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans;
+      display: flex;
+      height: 100vh;
+    }
+
+    .left,
+    .right {
+      flex: 1;
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      background: #fff;
+    }
+
+    .left * {
+      padding: .2rem 1rem;
+    }
+
+    .right {
+      background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    code {
+      background: #66a6ff;
+      color: white;
+    }
+
+    button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      background: #ffff;
+      ;
+      border-radius: 50px;
+      outline: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    @media (max-width: 800px) {
+      :root {
+        font-size: 20px;
+      }
+
+      body {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="left">
+    <h1>The Odin Project</h1>
+    <p>Assignment 1</p>
+    <code><a href="/">/</a></code>
+    <code><a href="/anythingelse">/404</a></code>
+    <code><a href="/about">/about</a></code>
+    <code><a href="/contact-me">/contact-me</a></code>
+  </div>
+  <div class="right">
+    </button>
+  </div>
+</body>
+
+</html>
